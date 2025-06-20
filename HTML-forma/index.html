@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>HTML forma</title>
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
+  </head>
+  <body>
+    <section class="anketa">
+      <div class="container">
+        <div class="anketa__container">
+          <h1 class="anketa-title">Anketa</h1>
+
+          <hr class="anketa-horizontal-rule" />
+
+          <form class="form">
+            <div class="form__control">
+              <h2 class="form__control-title">Mijoz ism va familiyasi</h2>
+              <div class="form__control-container">
+                <div class="form__control-box">
+                  <input
+                    required
+                    type="text"
+                    id="firstname"
+                    class="form__control-box-input"
+                  />
+                  <label
+                    for="firstname"
+                    class="form__control-label"
+                  >
+                    Ismingizni kiriting
+                  </label>
+                </div>
+                <div class="form__control-box">
+                  <input
+                    required
+                    type="text"
+                    id="lastname"
+                    class="form__control-box-input"
+                  />
+                  <label
+                    for="lastname"
+                    class="form__control-label"
+                  >
+                    Familiyangizni kiriting
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form__control">
+              <h2 class="form__control-title">Manzil</h2>
+              <div class="form__control-container">
+                <div class="form__control-box">
+                  <input
+                    required
+                    type="text"
+                    id="street-name"
+                    class="form__control-box-input"
+                  />
+                  <label
+                    for="street-name"
+                    class="form__control-label"
+                  >
+                    Ko'cha nomi
+                  </label>
+                </div>
+                <div class="form__control-box">
+                  <input
+                    required
+                    type="text"
+                    id="city-name"
+                    class="form__control-box-input"
+                  />
+                  <label
+                    for="city-name"
+                    class="form__control-label"
+                  >
+                    Shahar nomi
+                  </label>
+                </div>
+              </div>
+              <div class="form__control-container">
+                <div class="form__control-box">
+                  <input
+                    required
+                    type="number"
+                    id="email-index"
+                    class="form__control-box-input"
+                  />
+                  <label
+                    for="email-index"
+                    class="form__control-label"
+                  >
+                    Pochta indeksi
+                  </label>
+                </div>
+                <div class="form__control-box">
+                  <select
+                    id="region"
+                    class="form__control-select"
+                  >
+                    <option
+                      selected
+                      value="Toshkent"
+                    >
+                      Toshkent
+                    </option>
+                    <option value="Toshkent viloyati">Toshkent viloyati</option>
+                    <option value="Qoraqalpog'iston">Qoraqalpog'iston</option>
+                    <option value="Qoraqalpog'iston">Qoraqalpog'iston</option>
+                    <option value="Xorazm">Xorazm</option>
+                    <option value="Navoiy">Navoiy</option>
+                    <option value="Buxoro">Buxoro</option>
+                    <option value="Qashqadaryo">Qashqadaryo</option>
+                    <option value="Surxandaryo">Surxandaryo</option>
+                    <option value="Samarqand">Samarqand</option>
+                    <option value="Jizzax">Jizzax</option>
+                    <option value="Namangan">Namangan</option>
+                    <option value="Andijon">Andijon</option>
+                    <option value="Farg'ona">Farg'ona</option>
+                  </select>
+                  <label
+                    for="region"
+                    class="form__control-label"
+                  >
+                    Viloyatni tanlang
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form__control">
+              <h2 class="form__control-title">Bog'lanish</h2>
+              <div class="form__control-container">
+                <div class="form__control-box">
+                  <input
+                    required
+                    id="phone"
+                    type="tel"
+                    class="form__control-box-input"
+                  />
+                  <label
+                    for="phone"
+                    class="form__control-label"
+                  >
+                    Telefon raqam
+                  </label>
+                </div>
+                <div class="form__control-box">
+                  <input
+                    required
+                    id="email"
+                    type="email"
+                    class="form__control-box-input"
+                  />
+                  <label
+                    for="email"
+                    class="form__control-label"
+                  >
+                    Email
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form__control">
+              <h2 class="form__control-title">Shaxsiy malumotlar</h2>
+              <div class="form__control-container">
+                <div class="form__control-box">
+                  <input
+                    required
+                    id="male"
+                    name="info"
+                    type="radio"
+                  />
+                  <label
+                    for="male"
+                    class="form__control-label"
+                  >
+                    Erkak
+                  </label>
+                </div>
+                <div class="form__control-box">
+                  <input
+                    id="female"
+                    name="info"
+                    type="radio"
+                  />
+                  <label
+                    for="female"
+                    class="form__control-label"
+                  >
+                    Ayol
+                  </label>
+                </div>
+                <div class="form__control-box">
+                  <input
+                    name="info"
+                    id="another"
+                    type="radio"
+                  />
+                  <label
+                    for="another"
+                    class="form__control-label"
+                  >
+                    Boshqa
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form__control">
+              <h2 class="form__control-title">Baholash</h2>
+
+              <hr class="anketa-horizontal-rule" />
+
+              <div class="form__select-box">
+                <h3 class="form__select-title">Mexmonxona xizmati</h3>
+                <div class="form__control-container">
+                  <div class="form__control-box">
+                    <input
+                      required
+                      id="bad1"
+                      type="radio"
+                      name="rating1"
+                    />
+                    <label
+                      for="bad1"
+                      class="form__control-label"
+                    >
+                      Yomon
+                    </label>
+                  </div>
+                  <div class="form__control-box">
+                    <input
+                      id="good1"
+                      type="radio"
+                      name="rating1"
+                    />
+                    <label
+                      for="good1"
+                      class="form__control-label"
+                    >
+                      Yaxshi
+                    </label>
+                  </div>
+                  <div class="form__control-box">
+                    <input
+                      id="perfect1"
+                      type="radio"
+                      name="rating1"
+                    />
+                    <label
+                      for="perfect1"
+                      class="form__control-label"
+                    >
+                      Ajoyib
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form__select-box">
+                <h3 class="form__select-title">Xodimlar xizmati</h3>
+                <div class="form__control-container">
+                  <div class="form__control-box">
+                    <input
+                      id="bad2"
+                      required
+                      type="radio"
+                      name="rating2"
+                    />
+                    <label
+                      for="bad2"
+                      class="form__control-label"
+                    >
+                      Yomon
+                    </label>
+                  </div>
+                  <div class="form__control-box">
+                    <input
+                      id="good2"
+                      type="radio"
+                      name="rating2"
+                    />
+                    <label
+                      for="good2"
+                      class="form__control-label"
+                    >
+                      Yaxshi
+                    </label>
+                  </div>
+                  <div class="form__control-box">
+                    <input
+                      id="perfect2"
+                      type="radio"
+                      name="rating2"
+                    />
+                    <label
+                      for="perfect2"
+                      class="form__control-label"
+                    >
+                      Ajoyib
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form__select-box">
+                <h3 class="form__select-title">Ovqatlar xizmati</h3>
+                <div class="form__control-container">
+                  <div class="form__control-box">
+                    <input
+                      required
+                      id="bad3"
+                      type="radio"
+                      name="rating3"
+                    />
+                    <label
+                      for="bad3"
+                      class="form__control-label"
+                    >
+                      Yomon
+                    </label>
+                  </div>
+                  <div class="form__control-box">
+                    <input
+                      id="good3"
+                      type="radio"
+                      name="rating3"
+                    />
+                    <label
+                      for="good3"
+                      class="form__control-label"
+                    >
+                      Yaxshi
+                    </label>
+                  </div>
+                  <div class="form__control-box">
+                    <input
+                      id="perfect3"
+                      type="radio"
+                      name="rating3"
+                    />
+                    <label
+                      for="perfect3"
+                      class="form__control-label"
+                    >
+                      Ajoyib
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form__select-box">
+                <h3 class="form__select-title">Servis xizmati</h3>
+                <div class="form__control-container">
+                  <div class="form__control-box">
+                    <input
+                      required
+                      id="bad4"
+                      type="radio"
+                      name="rating4"
+                    />
+                    <label
+                      for="bad4"
+                      class="form__control-label"
+                    >
+                      Yomon
+                    </label>
+                  </div>
+                  <div class="form__control-box">
+                    <input
+                      id="good4"
+                      type="radio"
+                      name="rating4"
+                    />
+                    <label
+                      for="good4"
+                      class="form__control-label"
+                    >
+                      Yaxshi
+                    </label>
+                  </div>
+                  <div class="form__control-box">
+                    <input
+                      id="perfect4"
+                      type="radio"
+                      name="rating4"
+                    />
+                    <label
+                      for="perfect4"
+                      class="form__control-label"
+                    >
+                      Ajoyib
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form__select-box">
+                <h3 class="form__select-title">Internet sifati</h3>
+                <div class="form__control-container">
+                  <div class="form__control-box">
+                    <input
+                      required
+                      id="bad5"
+                      type="radio"
+                      name="rating5"
+                    />
+                    <label
+                      for="bad5"
+                      class="form__control-label"
+                    >
+                      Yomon
+                    </label>
+                  </div>
+                  <div class="form__control-box">
+                    <input
+                      id="good5"
+                      type="radio"
+                      name="rating5"
+                    />
+                    <label
+                      for="good5"
+                      class="form__control-label"
+                    >
+                      Yaxshi
+                    </label>
+                  </div>
+                  <div class="form__control-box">
+                    <input
+                      id="perfect5"
+                      type="radio"
+                      name="rating5"
+                    />
+                    <label
+                      for="perfect5"
+                      class="form__control-label"
+                    >
+                      Ajoyib
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form__select-box">
+                <h3 class="form__select-title">Xonaning tozaligi</h3>
+                <div class="form__control-container">
+                  <div class="form__control-box">
+                    <input
+                      required
+                      id="bad6"
+                      type="radio"
+                      name="rating6"
+                    />
+                    <label
+                      for="bad6"
+                      class="form__control-label"
+                    >
+                      Yomon
+                    </label>
+                  </div>
+                  <div class="form__control-box">
+                    <input
+                      id="good6"
+                      type="radio"
+                      name="rating6"
+                    />
+                    <label
+                      for="good6"
+                      class="form__control-label"
+                    >
+                      Yaxshi
+                    </label>
+                  </div>
+                  <div class="form__control-box">
+                    <input
+                      type="radio"
+                      id="perfect6"
+                      name="rating6"
+                    />
+                    <label
+                      for="perfect6"
+                      class="form__control-label"
+                    >
+                      Ajoyib
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button
+              type="submit"
+              class="form-submit"
+            >
+              Yuborish
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

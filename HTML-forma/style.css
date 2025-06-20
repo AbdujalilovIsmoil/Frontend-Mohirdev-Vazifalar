@@ -1,0 +1,125 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 60px;
+  max-width: 1440px;
+}
+
+.anketa__container {
+  padding: 20px;
+  max-width: 650px;
+  margin: 50px auto;
+  border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  background-color: rgb(203, 195, 195);
+}
+
+.anketa-title {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.anketa-horizontal-rule {
+  height: 3px;
+  display: block;
+  margin-bottom: 10px;
+  background-color: black;
+}
+
+.form {
+  gap: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.form__control-container {
+  gap: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.form__control-title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.form__control-box {
+  width: 100%;
+}
+
+.form__control-box-input {
+  padding: 10px;
+  width: inherit;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid black;
+  -webkit-border-radius: 5px;
+}
+
+.form__control-select {
+  padding: 10px;
+  width: inherit;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid black;
+  -webkit-border-radius: 5px;
+}
+
+.form__select-box {
+  margin-bottom: 25px;
+}
+
+.form__select-title {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.form-submit {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid black;
+  -webkit-border-radius: 5px;
+}
