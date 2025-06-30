@@ -10,95 +10,322 @@
       rel="stylesheet"
       href="./css/index.css"
     />
+    <link
+      rel="stylesheet"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    />
     <title>Portfolio</title>
   </head>
   <body>
     <!-- Header section -->
-    <header class="main-header">
-      <nav class="main-navigation">
-        <ul class="main-navigation__items">
-          <li class="main-navigation__item">
-            <a
-              href="#"
-              class="main-navigation__item-path"
-            >
-              Asosiy
-            </a>
-          </li>
-          <li class="main-navigation__item">
-            <a
-              href="#"
-              class="main-navigation__item-path"
-            >
-              Men haqimda
-            </a>
-          </li>
-          <li class="main-navigation__item">
-            <a
-              href="#"
-              class="main-navigation__item-path"
-            >
-              Xizmatlar
-            </a>
-          </li>
-          <li class="main-navigation__item">
-            <a
-              href="#"
-              class="main-navigation__item-path"
-              >Mijozlar
-            </a>
-          </li>
-          <li class="main-navigation__item">
-            <a
-              href="#"
-              class="main-navigation__item-path"
-            >
-              Portfolio
-            </a>
-          </li>
-          <li class="main-navigation__item">
-            <a
-              href="#"
-              class="main-navigation__item-path"
-            >
-              Blog
-            </a>
-          </li>
-          <li class="main-navigation__item">
-            <a
-              href="#"
-              class="main-navigation__item-path"
-            >
-              Sheriklar
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <div class="container">
+      <header class="main-header">
+        <div class="main-header__brand">
+          <a href="./index.html">
+            <img
+              alt="Logo"
+              src="./images/logo.webp"
+              class="main-header__brand-logo"
+            />
+          </a>
+        </div>
+        <nav class="main-navigation">
+          <ul class="main-navigation__items">
+            <li class="main-navigation__item">
+              <a
+                href="#"
+                class="main-navigation__item-path active"
+              >
+                Asosiy
+              </a>
+            </li>
+            <li class="main-navigation__item">
+              <a
+                href="#"
+                class="main-navigation__item-path"
+              >
+                Men haqimda
+              </a>
+            </li>
+            <li class="main-navigation__item">
+              <a
+                href="#"
+                class="main-navigation__item-path"
+              >
+                Xizmatlar
+              </a>
+            </li>
+            <li class="main-navigation__item">
+              <a
+                href="#"
+                class="main-navigation__item-path"
+                >Mijozlar
+              </a>
+            </li>
+            <li class="main-navigation__item">
+              <a
+                href="#"
+                class="main-navigation__item-path"
+              >
+                Portfolio
+              </a>
+            </li>
+            <li class="main-navigation__item">
+              <a
+                href="#"
+                class="main-navigation__item-path"
+              >
+                Blog
+              </a>
+            </li>
+            <li class="main-navigation__item">
+              <a
+                href="#"
+                class="main-navigation__item-path"
+              >
+                Sheriklar
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
     <!-- /Header section -->
 
     <!-- Main section -->
-    <section id="main-section">
-      <h1>Asosiy qism</h1>
-    </section>
+    <div class="container">
+      <section
+        id="main-section"
+        class="main-section"
+      >
+        <div class="main-section__info">
+          <h4 class="main-section__welcome to-uppercase">Salom hammaga!</h4>
+          <h1 class="main-section__introduction to-uppercase">
+            I am Abdujalilov
+          </h1>
+          <h3 class="main-section__position to-uppercase">
+            Junior (kichik) dasturchi
+          </h3>
+          <div class="main-section__social-networks">
+            <a href="https://t.me/ismoilabdujalilov">
+              <i class="fab fa-telegram"></i>
+            </a>
+            <a href="https://www.youtube.com/@abdujalilovismoil">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/coders.uzz">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ismoil-abdujalilov-60490826b">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+          <button
+            type="button"
+            class="main-section__action to-uppercase button"
+          >
+            Ishlarimni ko'ring
+          </button>
+        </div>
+
+        <div class="main-section__image">
+          <img
+            alt="My image"
+            src="./images/home-right.webp"
+          />
+        </div>
+      </section>
+      <div class="clearfix"></div>
+    </div>
     <!-- /Main section -->
 
+    <!-- Statistics section -->
+    <div class="container">
+      <section
+        id="statistics"
+        class="statistics"
+      >
+        <div class="statistics__item">
+          <h3 class="statistics__number">15k+</h3>
+          <p class="statistics__title">Hursand mijozlar</p>
+        </div>
+        <div class="statistics__item">
+          <h3 class="statistics__number">12k+</h3>
+          <p class="statistics__title">Yordam</p>
+        </div>
+        <div class="statistics__item">
+          <h3 class="statistics__number">9/10</h3>
+          <p class="statistics__title">O'rtacha reyting</p>
+        </div>
+      </section>
+    </div>
+    <!-- /Statistics section -->
+
     <!-- About me section -->
-    <section id="about-me">
-      <h1>Men haqimda</h1>
-    </section>
+    <div class="container">
+      <section
+        id="about-me"
+        class="about-me"
+      >
+        <div class="about-me__image">
+          <img
+            alt="About me image"
+            src="./images/about-me.webp"
+          />
+        </div>
+
+        <div class="about-me__info">
+          <h5 class="section-subtitle">
+            Men haqimda
+            <span class="blur-line"></span>
+          </h5>
+          <h3 class="section-title">Junior (kichik) dasturchi</h3>
+          <p class="about-me__description">
+            Salom. Men 20 yoshdaman. Mening ismim Ismoil. Men Frontend
+            dasturchisiman. Men 3 yildan beri IT sohasida o'qiyman va ishlayman.
+            Hozirda Mobile sohani o'rganyapman.
+          </p>
+
+          <button
+            type="button"
+            class="button to-uppercase about-me__action"
+          >
+            CV ko'chirib olish
+          </button>
+        </div>
+      </section>
+      <div class="clearfix"></div>
+    </div>
     <!-- /About me section -->
 
     <!-- Services section -->
-    <section id="services">
-      <h1>Mening xizmatlarim</h1>
-    </section>
+    <div class="container">
+      <section
+        id="services"
+        class="services"
+      >
+        <h5 class="section-subtitle">
+          Mening xizmatlarim
+          <span class="blur-line"></span>
+        </h5>
+        <h2 class="section-title">
+          Men taklif <br />
+          qiladigan xizmatlar
+        </h2>
+
+        <div class="services__cards">
+          <div class="service-card">
+            <img
+              alt="Service 1"
+              class="service-card__icon"
+              src="./images/services-1.webp"
+            />
+            <h5 class="service-card__title">Veb dasturlash</h5>
+            <p class="service-card__description">
+              Savollaringizga to'lliq javoblar va birinchi veb saytingizni
+              yaratish uchun kerak bo'ladigan barcha resurslar
+            </p>
+            <a
+              href="#"
+              class="service-card__link"
+            >
+              Ko'proq
+            </a>
+          </div>
+          <div class="service-card">
+            <img
+              alt="Service 2"
+              class="service-card__icon"
+              src="./images/services-2.webp"
+            />
+            <h5 class="service-card__title">Veb dasturlash</h5>
+            <p class="service-card__description">
+              Savollaringizga to'lliq javoblar va birinchi veb saytingizni
+              yaratish uchun kerak bo'ladigan barcha resurslar
+            </p>
+            <a
+              href="#"
+              class="service-card__link"
+            >
+              Ko'proq
+            </a>
+          </div>
+          <div class="service-card">
+            <img
+              alt="Service 3"
+              class="service-card__icon"
+              src="./images/services-3.webp"
+            />
+            <h5 class="service-card__title">Veb dasturlash</h5>
+            <p class="service-card__description">
+              Savollaringizga to'lliq javoblar va birinchi veb saytingizni
+              yaratish uchun kerak bo'ladigan barcha resurslar
+            </p>
+            <a
+              href="#"
+              class="service-card__link"
+            >
+              Ko'proq
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
     <!-- /Services section -->
 
     <!-- Clients section -->
-    <section id="clients">
-      <h1>Mening mijozlarim</h1>
-    </section>
+    <div class="container">
+      <section
+        id="clients"
+        class="clients"
+      >
+        <h5 class="section-subtitle">
+          Mening mijozlarim
+          <span class="blur-line"></span>
+        </h5>
+        <h2 class="section-title">
+          Hurmatli mijozlarim <br />
+          men haqimda
+        </h2>
+
+        <div class="client-items">
+          <div class="client-item">
+            <div class="client-item__image">
+              <img
+                alt="Client image"
+                src="./images/about-me.webp"
+              />
+            </div>
+
+            <div class="client-item__info">
+              <h3 class="client-item__name">Alisher Sultonov</h3>
+              <p class="client-item__position">Senior (Katta) dasturchi</p>
+              <p class="client-item__review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                aperiam dicta eos alias autem corrupti excepturi atque ipsa
+                saepe asperiores dolore eaque, consequuntur aut enim adipisci
+                non. Voluptates pariatur, et praesentium quisquam vitae
+                corporis. Laudantium velit quae corrupti blanditiis? Adipisci
+                laboriosam aspernatur, quis enim iste quas impedit officiis
+                temporibus. Iusto?
+              </p>
+
+              <div class="client-item__rate">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="clearfix"></div>
+    </div>
     <!-- /Clients section -->
 
     <!-- Portfolio section -->
