@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    />
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <section class="login">
+      <h1 class="login-title">Login</h1>
+      <form class="login-form">
+        <div class="login-form__group">
+          <label
+            for="email"
+            class="login-form__group-label"
+          >
+            Email:
+          </label>
+          <input
+            required
+            id="email"
+            type="email"
+            class="login-form__group-input"
+          />
+        </div>
+        <div class="login-form__group">
+          <label
+            for="password"
+            class="login-form__group-label"
+          >
+            Password:
+          </label>
+          <input
+            required
+            id="password"
+            type="password"
+            class="login-form__group-input"
+          />
+        </div>
+
+        <div class="login-form__group">
+          <label for="check">
+            <input
+              type="checkbox"
+              id="check"
+            />
+            By signing up for Codecademy, you <br />
+            agree to Codecademy's
+            <a href="#">
+              Terms of <br />
+              Service & Privacy Policy
+            </a>
+          </label>
+        </div>
+
+        <button
+          class="login-form-btn"
+          type="submit"
+        >
+          Login
+        </button>
+
+        <p class="login-form-description">Or sign up with:</p>
+
+        <ul class="login-form__socials">
+          <li class="login-form__social">
+            <a href="https://google.com">
+              <i class="fab fa-google"></i>
+            </a>
+          </li>
+          <li class="login-form__social">
+            <a href="https://facebook.com">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li class="login-form__social">
+            <a href="https://github.com">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li class="login-form__social">
+            <a href="https://apple.com">
+              <i class="fab fa-apple"></i>
+            </a>
+          </li>
+        </ul>
+      </form>
+    </section>
+  </body>
+</html>
