@@ -1,0 +1,100 @@
+/* starter css codes */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 60px;
+  max-width: 1440px;
+}
+
+.title {
+  margin-bottom: 25px;
+}
+/* /starter css codes */
+
+/* header section */
+.header,
+.about-me,
+.projects,
+.contact {
+  margin-bottom: 50px;
+}
+
+.header__top {
+  padding: 60px 0px;
+  text-align: center;
+  background-color: rgb(19, 153, 19);
+}
+
+.header__top-title {
+  color: white;
+  font-size: 36px;
+}
+
+.nav {
+  background-color: rgb(32, 30, 30);
+}
+
+.nav__list {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__item-link {
+  color: white;
+}
+
+.nav__item-link:hover {
+  color: rgb(19, 153, 19);
+}
+/* /header section */
+
+/* Contact section */
+.contact-form-submit,
+.contact-form__group-input,
+.contact-form__group-textarea {
+  width: 100%;
+}
+
+.contact-form__group-label,
+.contact-form__group {
+  margin-bottom: 10px;
+}
+
+.contact-form__group-label {
+  display: inline-block;
+}
+
+/* /Contact section */
+
+/* Footer section */
+.footer {
+  padding: 60px 0px;
+  text-align: center;
+  background-color: rgb(32, 30, 30);
+}
+
+.footer-description {
+  color: white;
+}
+/* /Footer section */

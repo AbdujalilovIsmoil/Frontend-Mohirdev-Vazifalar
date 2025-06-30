@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
+    <title>Portfolio Loyiha</title>
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <h1 class="header__top-title">Welcome to My Personal Webpage</h1>
+        </div>
+      </div>
+
+      <!-- Nav section -->
+      <nav class="nav">
+        <div class="container">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a
+                href="#about"
+                class="nav__item-link"
+              >
+                About me
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="#projects"
+                class="nav__item-link"
+              >
+                Projects
+              </a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="#contacts"
+                class="nav__item-link"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- /Nav section -->
+    </header>
+    <!-- /Header section -->
+
+    <main class="main">
+      <!-- About me section -->
+      <section class="about-me">
+        <div class="container">
+          <h2 class="title">About Me</h2>
+          <p class="about-me-description">
+            Hello! I am a developer with a passion for creating beautiful and
+            functional websites.
+          </p>
+        </div>
+      </section>
+      <!-- /About me section -->
+
+      <!-- Projects section -->
+      <section class="projects">
+        <div class="container">
+          <h2 class="title">Projects</h2>
+          <ul class="projects__items">
+            <li class="projects__item">
+              Project 1:
+              <a
+                href="#"
+                class="projects__item-link"
+              >
+                Link to project
+              </a>
+            </li>
+            <li class="projects__item">
+              Project 2:
+              <a
+                href="#"
+                class="projects__item-link"
+              >
+                Link to project
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- /Projects section -->
+
+      <!-- Contact section -->
+      <section class="contact">
+        <div class="container">
+          <h2 class="title">Contact</h2>
+
+          <form class="contact-form">
+            <div class="contact-form__group">
+              <label
+                for="name"
+                class="contact-form__group-label"
+              >
+                Name:
+              </label>
+              <input
+                required
+                id="name"
+                name="name"
+                type="text"
+                class="contact-form__group-input"
+              />
+            </div>
+
+            <div class="contact-form__group">
+              <label
+                for="email"
+                class="contact-form__group-label"
+              >
+                Email:
+              </label>
+              <input
+                required
+                id="email"
+                name="email"
+                type="email"
+                class="contact-form__group-input"
+              />
+            </div>
+
+            <div class="contact-form__group">
+              <label
+                for="message"
+                class="contact-form__group-label"
+              >
+                Message:
+              </label>
+              <textarea
+                required
+                id="message"
+                name="message"
+                class="contact-form__group-textarea"
+              >
+              </textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="contact-form-submit"
+            >
+              Send
+            </button>
+          </form>
+        </div>
+      </section>
+      <!-- /Contact section -->
+    </main>
+
+    <!-- Footer section -->
+    <footer class="footer">
+      <div class="container">
+        <p class="footer-description">&copy; 2025 My personal Webpage</p>
+      </div>
+    </footer>
+    <!-- /Footer section -->
+  </body>
+</html>
