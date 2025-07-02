@@ -1,0 +1,118 @@
+/* Core styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.to-uppercase {
+  text-transform: uppercase;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.blur-line {
+  top: -2px;
+  width: 80px;
+  height: 4px;
+  margin-left: 5px;
+  filter: blur(4px);
+  position: relative;
+  border-radius: 4px;
+  display: inline-block;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-filter: blur(4px);
+  -webkit-border-radius: 4px;
+  background-color: rgba(237, 35, 159, 0.6);
+}
+
+.button {
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+  background-size: 200% auto;
+}
+
+.button:hover {
+  background-position: right center;
+}
+
+.section-subtitle {
+  font-weight: 500;
+  color: #797979;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-top: 5px;
+  color: #05364d;
+  text-transform: capitalize;
+}
+
+/* Main header styles */
+
+.main-header {
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+}
+
+.main-header__brand {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__brand-logo {
+  width: 118px;
+}
+
+.main-navigation {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-navigation__item {
+  padding: 10px;
+  display: inline-block;
+}
+
+.main-navigation__item-path {
+  font-size: 12px;
+  font-weight: 500;
+  color: #05364d;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-navigation__item-path:hover {
+  color: #efb6df;
+}
+
+.main-navigation__item-path.active {
+  color: #efb6df;
+}
