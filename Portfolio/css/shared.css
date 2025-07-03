@@ -1,4 +1,5 @@
 /* Core styles */
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -21,10 +22,10 @@ body {
   top: -2px;
   width: 80px;
   height: 4px;
-  margin-left: 5px;
   filter: blur(4px);
   position: relative;
   border-radius: 4px;
+  margin-left: 0.32rem;
   display: inline-block;
   -o-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -36,15 +37,15 @@ body {
 
 .button {
   border: none;
-  font-size: 14px;
   cursor: pointer;
   font-weight: 500;
   color: #ffffff;
-  padding: 20px 40px;
+  font-size: 0.87rem;
   border-radius: 5px;
   -o-border-radius: 5px;
   -ms-border-radius: 5px;
   -moz-border-radius: 5px;
+  padding: 1.25rem 2.5rem;
   -webkit-border-radius: 5px;
   background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
   background-size: 200% auto;
@@ -58,15 +59,15 @@ body {
   font-weight: 500;
   color: #797979;
   letter-spacing: 2px;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   text-transform: uppercase;
 }
 
 .section-title {
-  font-size: 42px;
   font-weight: 700;
-  margin-top: 5px;
   color: #05364d;
+  font-size: 2.62rem;
+  margin-top: 0.32rem;
   text-transform: capitalize;
 }
 
@@ -97,14 +98,14 @@ body {
 }
 
 .main-navigation__item {
-  padding: 10px;
+  padding: 0.625rem;
   display: inline-block;
 }
 
 .main-navigation__item-path {
-  font-size: 12px;
   font-weight: 500;
   color: #05364d;
+  font-size: 0.75rem;
   text-decoration: none;
   text-transform: uppercase;
 }

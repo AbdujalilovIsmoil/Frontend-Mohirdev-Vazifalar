@@ -1,4 +1,5 @@
 /* Main section */
+
 .main-banner {
   min-height: 890px;
   background-size: cover;
@@ -8,7 +9,7 @@
 }
 
 .main-section {
-  padding: 100px 0px;
+  padding: 7.5rem 1.87rem;
 }
 
 .main-section > div {
@@ -21,32 +22,32 @@
 }
 
 .main-section__welcome {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   color: #797979;
-  margin-bottom: 20px;
   letter-spacing: 2px;
+  margin-bottom: 1.25rem;
 }
 
 .main-section__introduction {
-  font-size: 60px;
-  margin-top: 20px;
   font-weight: 500;
   color: #05364e;
-  margin-bottom: 20px;
+  font-size: 3.75rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .main-section__position {
-  font-size: 24px;
   color: #05364e;
   font-weight: 300;
-  margin-bottom: 20px;
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 
 .main-section__social-networks a {
-  font-size: 20px;
   color: #8fa1aa;
-  margin-right: 16px;
+  font-size: 1.25rem;
+  margin-right: 1rem;
   display: inline-block;
 }
 
@@ -55,27 +56,27 @@
 }
 
 .main-section__action {
-  margin-top: 30px;
+  margin-top: 1.87rem;
 }
 
 /* Statistics section */
 
 .statistics {
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 
 .statistics__item {
   width: 150px;
-  padding: 5px 10px;
   text-align: center;
-  margin-right: 20px;
+  margin-right: 1.25rem;
   display: inline-block;
+  padding: 0.32rem 0.625rem;
   background-color: #f8faff;
 }
 
 .statistics__number {
-  font-size: 27px;
-  margin-bottom: 5px;
+  font-size: 1.69rem;
+  margin-bottom: 0.32rem;
   background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
   -webkit-background-clip: text;
   background-clip: text;
@@ -83,14 +84,14 @@
 }
 
 .statistics__title {
-  font-size: 16px;
+  font-size: 1rem;
   color: #797979;
   font-weight: 300;
 }
 
 /* About me section */
 .about-me {
-  padding: 100px 0;
+  padding: 6.25rem 0;
 }
 
 .about-me > div {
@@ -103,29 +104,29 @@
 }
 
 .about-me__description {
-  font-size: 14px;
   font-weight: 300;
   color: #797979;
-  line-height: 27px;
+  font-size: 0.87rem;
+  line-height: 1.69rem;
 }
 
 .about-me__action {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 /* Services section styles */
 
 .services {
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 
 .service-card {
   width: 30%;
   margin-right: 3%;
   text-align: center;
-  padding: 60px 30px;
   display: inline-block;
   box-sizing: border-box;
+  padding: 3.75rem 1.87rem;
   background-color: #f8faff;
 }
 
@@ -143,24 +144,24 @@
 }
 
 .service-card__title {
-  font-size: 20px;
   font-weight: 500;
   color: #05364d;
-  margin-bottom: 20px;
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
   text-transform: uppercase;
 }
 
 .service-card__description {
-  font-size: 14px;
   font-weight: 300;
   color: #797979;
-  line-height: 27px;
+  font-size: 0.87rem;
+  line-height: 1.68rem;
 }
 
 .service-card__link {
-  font-size: 13px;
   font-weight: 500;
   color: #05364d;
+  font-size: 0.81rem;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -168,7 +169,7 @@
 /* Client section styles */
 
 .clients {
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 
 .client-item > div {
@@ -182,26 +183,26 @@
 }
 
 .client-item__info {
-  padding-top: 50px;
-  padding-left: 50px;
+  padding-top: 3.12rem;
+  padding-left: 3.12rem;
 }
 
 .client-item__name {
-  font-size: 20px;
-  margin-bottom: 4px;
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .client-item__position {
-  font-size: 14px;
   font-weight: 300;
   color: #5b6d75;
+  font-size: 0.87rem;
 }
 
 .client-item__review {
-  font-size: 14px;
   color: #5b6d75;
   font-weight: 300;
-  line-height: 27px;
+  font-size: 0.87rem;
+  line-height: 1.68rem;
 }
 
 .client-item__rate {
@@ -210,20 +211,20 @@
 /* Portfolio section styles */
 
 .portfolio {
-  padding: 100px 0px;
+  padding: 6.25rem 0px;
 }
 
 .portfolio-filters {
   padding-left: 0;
-  margin-top: 50px;
+  margin-top: 3.12rem;
   list-style-type: none;
 }
 
 .portfolio-filters li {
-  font-size: 13px;
   cursor: pointer;
   font-weight: 400;
-  margin-right: 40px;
+  font-size: 0.81rem;
+  margin-right: 2.5rem;
   display: inline-block;
   text-transform: uppercase;
 }
@@ -235,12 +236,13 @@
 
 .portfolio-items {
   position: relative;
+  margin-top: 3.125rem;
 }
 
 .portfolio-item {
   width: 50%;
-  padding: 10px;
   cursor: pointer;
+  padding: 0.625rem;
   position: relative;
   display: inline-block;
   box-sizing: border-box;
@@ -312,11 +314,11 @@
 /* Blog section styles */
 
 .blog {
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 
 .blog-items {
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .blog-item {
@@ -335,7 +337,7 @@
 }
 
 .blog-item__info {
-  padding: 30px;
+  padding: 1.87rem;
   color: #797979;
   background-color: #f8faff;
 }
@@ -345,33 +347,33 @@
 }
 
 .blog-item__main-info span {
-  font-size: 14px;
-  margin-right: 30px;
+  font-size: 0.87rem;
   font-weight: lighter;
+  margin-right: 1.87rem;
 }
 
 .blog-item__info i {
-  margin-right: 5px;
+  margin-right: 0.31rem;
 }
 
 .blog-item__title {
-  font-size: 20px;
-  margin-top: 20px;
   color: #05364d;
   font-weight: 700;
-  margin-bottom: 15px;
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.94rem;
 }
 
 .blog-item__description {
-  font-size: 15px;
+  font-size: 0.94rem;
   font-weight: lighter;
-  line-height: 27px;
+  line-height: 1.68rem;
 }
 
 .blog-item__learn-more {
-  font-size: 13px;
   font-weight: 500;
   color: #05364d;
+  font-size: 0.81rem;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -383,10 +385,10 @@
 /* Partner section styles */
 
 .partners {
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 
 .partner {
-  padding: 0 30px;
+  padding: 0 1.87rem;
   display: inline-block;
 }
