@@ -182,12 +182,13 @@ body {
   color: #797979;
 }
 
-@media only screen and (max-width: 767px) {
-  .container {
-    width: 96%;
+@media only screen and (max-width: 991px) {
+  /* Main header */
+  .main-header {
+    padding: 20px 0px;
   }
 
-  /* Navigation */
+  /* Navigation menu */
   .main-navigation {
     display: none;
   }
@@ -196,5 +197,11 @@ body {
 
   .footer__navigation {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 96%;
   }
 }
