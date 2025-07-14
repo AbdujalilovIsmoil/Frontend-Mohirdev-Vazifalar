@@ -1,7 +1,52 @@
+/* Google fonts */
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/static/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-style: italic;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/static/Roboto-Italic.ttf");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/static/Roboto-Bold.ttf");
+}
+
+@font-face  {
+  font-weight: 100;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/static/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/static/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-weight: 500;
+  font-style: italic;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/static/Roboto-MediumItalic.ttf");
+}
+
+@font-face {
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/static/Roboto-BoldItalic.ttf");
+}
+
 /* Core styles */
 
 body {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
