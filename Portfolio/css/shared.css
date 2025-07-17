@@ -17,7 +17,7 @@
   src: url("../fonts/Roboto/static/Roboto-Bold.ttf");
 }
 
-@font-face  {
+@font-face {
   font-weight: 100;
   font-family: "Roboto";
   src: url("../fonts/Roboto/static/Roboto-Light.ttf");
@@ -46,8 +46,16 @@
 /* Core styles */
 
 body {
-  font-family: "Roboto", sans-serif;
   margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
 }
 
 .container {
@@ -94,6 +102,11 @@ body {
   -webkit-border-radius: 5px;
   background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
   background-size: 200% auto;
+  transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
 }
 
 .button:hover {

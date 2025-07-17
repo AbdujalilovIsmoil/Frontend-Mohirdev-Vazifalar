@@ -128,6 +128,11 @@
   box-sizing: border-box;
   padding: 3.75rem 1.87rem;
   background-color: #f8faff;
+  transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
 }
 
 .service-card:hover {
@@ -278,9 +283,12 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  visibility: hidden;
   z-index: 1;
-  background-color: rgba(19, 69, 230, 0.9);
+  transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
 }
 
 .portfolio-item__info {
@@ -288,7 +296,13 @@
   z-index: 2;
   bottom: 44px;
   visibility: hidden;
+  opacity: 0;
   position: absolute;
+  transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
 }
 
 .portfolio-item__info :where(a, p) {
@@ -303,11 +317,13 @@
   top: 20px;
   left: 20px;
   visibility: visible;
+  background-color: rgba(19, 69, 230, 0.9);
 }
 
 .portfolio-item:hover .portfolio-item__info {
   left: 60px;
   bottom: 24px;
+  opacity: 1;
   visibility: visible;
 }
 
@@ -326,10 +342,23 @@
   margin-right: 3%;
   display: inline-block;
   box-sizing: border-box;
+  overflow: hidden;
+}
+
+.blog-item__image {
+  overflow: hidden;
 }
 
 .blog-item:hover {
   box-shadow: 0px 10px 20px rgba(5, 54, 77, 0.1);
+}
+
+.blog-item:hover .blog-item__image img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 .blog-item:hover .blog-item__info {
@@ -344,6 +373,12 @@
 
 .blog-item__image img {
   width: 100%;
+  vertical-align: middle;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
 }
 
 .blog-item__main-info span {
