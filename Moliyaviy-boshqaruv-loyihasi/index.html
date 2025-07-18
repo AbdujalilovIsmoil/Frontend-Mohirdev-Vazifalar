@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/index.css"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      crossorigin
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    />
+    <title>Moliyaviy boshqaruv loyihasi</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top-container">
+          <a
+            class="header-logo"
+            href="./index.html"
+          >
+            <img
+              width="40"
+              height="40"
+              alt="Moliyaviy boshqaruv"
+              src="./images/site-logo.svg"
+              class="header-logo__site-logo"
+            />
+            <span class="header-logo__name">Moliyaviy boshqaruv</span>
+          </a>
+
+          <a
+            href="#"
+            role="button"
+            class="header__btn"
+          >
+            Yangi tranzaksiya
+          </a>
+        </div>
+
+        <ul class="header__reports">
+          <li class="header__report">
+            <div class="header__report-container">
+              <h2 class="header__report-title">Kirim</h2>
+              <img
+                width="32"
+                height="32"
+                alt="report up circle icon"
+                class="header__report-icon"
+                src="./images/up-circle-icon.svg"
+              />
+            </div>
+
+            <h2 class="header__report-price">6,636,226 UZS</h2>
+          </li>
+          <li class="header__report">
+            <div class="header__report-container">
+              <h2 class="header__report-title">Chiqim</h2>
+              <img
+                width="32"
+                height="32"
+                alt="report down circle icon"
+                class="header__report-icon"
+                src="./images/down-circle-icon.svg"
+              />
+            </div>
+            <h2 class="header__report-price">1,204,220 UZS</h2>
+          </li>
+          <li class="header__report header__report--outlay">
+            <div class="header__report-container">
+              <h2 class="header__report-title">Qolgan pul</h2>
+              <img
+                width="32"
+                height="32"
+                alt="report down circle icon"
+                class="header__report-icon"
+                src="./images/dollar-icon.svg"
+              />
+            </div>
+            <h2 class="header__report-price">5,432,006 UZS</h2>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main">
+      <h1 class="visually-hidden">Moliyaviy boshqaruv</h1>
+      <div class="container">
+        <form class="form">
+          <input
+            type="search"
+            class="form__input"
+            placeholder="Qidirish"
+          />
+          <button
+            type="submit"
+            class="form__btn"
+          >
+            <img
+              width="20"
+              height="20"
+              alt="search icon"
+              class="form__search-icon"
+              src="./images/search-icon.svg"
+            />
+            Qidirish
+          </button>
+        </form>
+
+        <div class="table__container">
+          <table class="table">
+            <tbody class="table__body">
+              <tr class="table__room">
+                <td class="table__head">
+                  <p class="table__head-report">Iyul oyi uchun oylik</p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-price table__head-price--paid">
+                    10,000,000 UZS
+                  </p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-reason">Mohirdev kompaniyasi</p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-date">01/07/2024</p>
+                </td>
+              </tr>
+              <tr class="table__room">
+                <td class="table__head">
+                  <p class="table__head-report">
+                    Iyun oyi uchun kommunal to’lovlar
+                  </p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-price table__head-price--unpaid">
+                    - 750,000 UZS
+                  </p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-reason">Kommunal to’lov</p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-date">30/06/2024</p>
+                </td>
+              </tr>
+              <tr class="table__room">
+                <td class="table__head">
+                  <p class="table__head-report">
+                    Iyun oyi uchun moshina ijarasi
+                  </p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-price table__head-price--unpaid">
+                    - 3,000,000 UZS
+                  </p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-reason">Ijara</p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-date">27/06/2024</p>
+                </td>
+              </tr>
+              <tr class="table__room">
+                <td class="table__head">
+                  <p class="table__head-report">Loyihadan kelgan pul</p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-price table__head-price--paid">
+                    7,000,000 UZS
+                  </p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-reason">Google loyihasidan</p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-date">15/06/2024</p>
+                </td>
+              </tr>
+              <tr class="table__room">
+                <td class="table__head">
+                  <p class="table__head-report">
+                    Do’stim va nihoyat qarzini berdi
+                  </p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-price table__head-price--paid">
+                    2,000,000 UZS
+                  </p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-reason">Qarz</p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-date">13/06/2024</p>
+                </td>
+              </tr>
+              <tr class="table__room">
+                <td class="table__head">
+                  <p class="table__head-report">Iyun oyi uchun uy ijarasi</p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-price table__head-price--unpaid">
+                    - 3,000,000 UZS
+                  </p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-reason">Ijara</p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-date">10/06/2024</p>
+                </td>
+              </tr>
+              <tr class="table__room">
+                <td class="table__head">
+                  <p class="table__head-report">Kiyim oldim</p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-price table__head-price--unpaid">
+                    - 1,000,000 UZS
+                  </p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-reason">Shopping</p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-date">02/06/2024</p>
+                </td>
+              </tr>
+              <tr class="table__room">
+                <td class="table__head">
+                  <p class="table__head-report">Iyun oyi uchun oylik</p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-price table__head-price--paid">
+                    8,000,000 UZS
+                  </p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-reason">Mohirdev kompaniyasi</p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-date">01/06/2024</p>
+                </td>
+              </tr>
+              <tr class="table__room">
+                <td class="table__head">
+                  <p class="table__head-report">
+                    May oyi uchun moshina ijarasi
+                  </p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-price table__head-price--unpaid">
+                    - 2,700,000 UZS
+                  </p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-reason">Ijara</p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-date">27/05/2024</p>
+                </td>
+              </tr>
+              <tr class="table__room">
+                <td class="table__head">
+                  <p class="table__head-report">Oilaviy ovqatlanish</p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-price table__head-price--unpaid">
+                    - 750,000 UZS
+                  </p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-reason">Oziq-ovqat</p>
+                </td>
+                <td class="table__head">
+                  <p class="table__head-date">25/05/2024</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <nav
+          class="pagination"
+          aria-label="pagination"
+        >
+          <a
+            href="#"
+            role="button"
+            aria-label="olding sahifa"
+            class="pagination__arrow-btn"
+          >
+            <img
+              width="24"
+              height="24"
+              alt="arrow left icon"
+              class="pagination__arrow-icon"
+              src="./images/arrow-left-icon.svg"
+            />
+          </a>
+
+          <ul class="pagination__items">
+            <li class="pagination__item">
+              <a
+                href="#"
+                role="button"
+                aria-current="page"
+                class="pagination__item-btn pagination__item-btn--active"
+              >
+                <span class="visually-hidden">page</span>
+                1
+              </a>
+            </li>
+            <li class="pagination__item">
+              <a
+                href="#"
+                role="button"
+                class="pagination__item-btn"
+              >
+                <span class="visually-hidden">page</span>
+                2
+              </a>
+            </li>
+            <li class="pagination__item">
+              <a
+                href="#"
+                role="button"
+                class="pagination__item-btn"
+              >
+                <span class="visually-hidden">page</span>
+                3
+              </a>
+            </li>
+          </ul>
+
+          <a
+            href="#"
+            role="button"
+            aria-disabled="true"
+            aria-label="keyingi sahifa"
+            class="pagination__arrow-btn"
+          >
+            <img
+              width="24"
+              height="24"
+              alt="arrow right icon"
+              class="pagination__arrow-icon"
+              src="./images/arrow-right-icon.svg"
+            />
+          </a>
+        </nav>
+      </div>
+    </main>
+  </body>
+</html>
